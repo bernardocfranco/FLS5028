@@ -43,7 +43,7 @@ plot <- ggraph(graph, layout = 'linear', circular = TRUE) +
   theme(
     legend.position = "bottom",
     plot.title = element_text(hjust = 0.5, size = 18, face = "bold", margin = margin(b = 10)),
-    plot.subtitle = element_text(hjust = 0.5, size = 12, italic = TRUE, margin = margin(b = 20)),
+    plot.subtitle = element_text(hjust = 0.5, size = 12, face = "italic", margin = margin(b = 20)),
     plot.margin = margin(20, 20, 20, 20)
   )
 
